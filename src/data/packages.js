@@ -1,0 +1,30 @@
+export const packages = [
+  {
+    name: "Intimate",
+    price: "₹15,000",
+    priceNote: "Starting at",
+    features: ["2 Hours", "1 Photographer", "100+ Edited Images", "Online Gallery"],
+    cta: "Enquire",
+    to: "/booking",
+    featured: false,
+  },
+  {
+    name: "Signature",
+    price: "₹30,000",
+    priceNote: "Starting at",
+    badge: "Most Requested",
+    features: ["5 Hours", "2 Photographers", "300+ Edited Images", "Premium Editing", "Online Gallery", "Highlight Film"],
+    cta: "Enquire",
+    to: "/booking",
+    featured: true,
+  },
+  {
+    name: "Bespoke",
+    price: "Custom",
+    priceNote: "Tailored to your story",
+    for: ["Full-day weddings", "Commercial campaigns", "Fashion editorials", "Destination shoots"],
+    cta: "Discuss Your Project",
+    to: "/booking",
+    featured: false,
+  },
+];
